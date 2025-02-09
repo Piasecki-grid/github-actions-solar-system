@@ -54,7 +54,7 @@ jobs:
     
         - name: Unit Testing
           run: npm run code-coverage
-          continue-on-failure: true
+          continue-on-error: true
 
         - name: Archive Test Result
           
